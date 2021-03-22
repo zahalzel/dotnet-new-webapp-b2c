@@ -1,10 +1,10 @@
 {
   "AzureAdB2C": {
-    "Instance": "https://halzelb2c.b2clogin.com/",
-    "ClientId": "2944900f-87f0-41c6-8d81-e03a4c6aa0ec",
+    "Instance": "https://login.microsoftonline.com/tfp/",
+    "ClientId": "11111111-1111-1111-11111111111111111",
     "CallbackPath": "/signin-oidc",
-    "Domain": "halzelb2c.onmicrosoft.com",
-    "ClientSecret": "See user secrets",
+    "Domain": "qualified.domain.name",
+    "ClientSecret": "secret-from-app-registration",
     "ClientCertificates" : [
     ],
     "SignedOutCallbackPath": "/signout/B2C_1_susi",
